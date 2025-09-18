@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Общие стили для всех баннеров */
+.banner {
+    position: fixed; /* фиксируем на экране */
+    width: 120px;    /* ширина баннера */
+    height: 60px;    /* высота баннера */
+    background-color: #ffcc00; /* цвет для наглядности */
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 1000; /* чтобы баннер был поверх всего */
+    border: 2px solid #000;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Позиционирование баннеров по углам */
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Контент для скролла */
+.content {
+    height: 2000px; /* делаем страницу длинной для проверки скролла */
+    padding: 20px;
+}
